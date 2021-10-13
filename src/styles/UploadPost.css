@@ -1,0 +1,25 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Uploadpost_caption {
+  outline: none;
+  height: 30px;
+}
+.fileupload_btn {
+  margin-top: 6px;
+}
+.uploadBtn {
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.uploadBtn:focus {
+  font-size: 14px;
+  background: lightgrey;
+  width: 100%;
+}

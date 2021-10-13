@@ -1,0 +1,33 @@
+.app_header {
+  background-color: white;
+  padding: 6px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.app_header img {
+  height: 80px;
+}
+.header_logo {
+  object-fit: contain;
+  width: 200px;
+  background-color: #ffffff;
+}
+.app_header button,
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: relative;
+  left: -20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

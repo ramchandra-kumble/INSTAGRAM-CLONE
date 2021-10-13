@@ -1,0 +1,65 @@
+.post {
+  max-width: 500px;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.postImg {
+  width: 100%;
+  object-fit: contain;
+  min-width: 300px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.post_caption,
+.postCaption_name {
+  font-weight: 100 !important;
+  padding: 15px;
+}
+.post_caption {
+  position: relative;
+  left: -23px;
+}
+.post_Avatar {
+  margin-right: 10px;
+}
+.post h6 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 400 !important;
+}
+.post h3 {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 600 !important;
+}
+.postCaptionDiv {
+  display: flex;
+}
+.postCommentBox {
+  display: flex;
+  padding-left: 7.9px;
+}
+.postInput {
+  display: flex;
+  margin-top: 0px;
+  outline: none;
+  border: 1px solid #000;
+  margin-left: -0px;
+  width: 400px;
+  padding: 2px;
+}
+.postCommetn_btn {
+  width: 50px;
+}
+@media screen and (max-width: 480px) {
+  .postInput {
+    width: 250px;
+  }
+}
